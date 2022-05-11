@@ -1,3 +1,18 @@
+/* Создайте объект person со следующей структурой:
+{
+	name: `Person`,
+	age: 123,
+	salary: 1542.33,
+	contacts: {
+		phone: `112`,
+		email: ‘email@domain.com’
+},
+address: `Moldova`
+}
+
+Создайте по одной функции get для каждого поля объекта (функции/методы должныдолны принадлежать объекту)
+ */
+
 const person = {
 	name: `Person`,
 	age: 123,
