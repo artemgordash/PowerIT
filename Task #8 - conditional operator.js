@@ -3,14 +3,14 @@ const user = {
     password: '12345',
 }
 
-const inputLogin = prompt('Login');
-const inputPassword = prompt('Password');
+const login = prompt('Login');
+const password = prompt('Password');
 
-if (inputLogin === user.name && inputPassword === user.password) {
+if (login === user.name && password === user.password) {
     alert('Hello')
-} else if (inputLogin === user.name && inputPassword !== user.password) {
+} else if (login === user.name && password !== user.password) {
     alert('Invalid password')
-} else if (inputLogin !== user.name && inputPassword === user.password) {
+} else if (login !== user.name && password === user.password) {
     alert('Invalid login')
 } else {
     alert('Error of validation')
