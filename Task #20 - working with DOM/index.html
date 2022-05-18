@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  }
+
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 6px 20px;
+  }
+
+  input {
+    outline:none;
+  }
+
+  .user-form {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  </style>
+</head>
+<body>
+
+  <table class="users">
+    <tr>
+      <td>Пользователи</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <div class="user-form">
+    <input id="user_name" type="text"><button id="add-user">Добавить</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
