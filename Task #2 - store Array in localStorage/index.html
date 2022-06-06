@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .todo__input {
+      margin: 20px 0;
+    }
+
+    .task {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      margin: 10px 0;
+    }
+    .task__text {
+      flex-basis: 90%;
+    }
+  </style>
+</head>
+<body>
+  <div class="todo">
+    <h2 class="todo__title">Task list</h2>
+    <h3 class="todo__subtitle"></h3>
+    <input type="text" class="todo__input">
+    <input type="submit" class="todo__button" value="Add">
+    <div class="todo__tasks">
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
